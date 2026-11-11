@@ -12,60 +12,24 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 
 ## PROCEDURE
 
- ### STEP-1:  Start the sketch command
+ ### STEP-1:  Start the main body outline
 
-   Select Sketch > Create Sketch.
+   Select Sketch > Create sketch and pick the front (XY) plane. Choose rectangle in that choose center rectangle, click the origin, press tab and enter 100 mm and 50 mm. Click finish sketch.
 
- ### STEP-2:  Select the Sketch Plane
+ ### STEP-2:   Extrude the body
 
-   Select the Front (XZ) Plane
+   After that Select extrude, click the rectangle, type 30 mm and press enter.
 
-### STEP-3: Create a Rectangle 
+### STEP-3: Making the lens
 
-   1.	Select Sketch > Rectangle > Center Rectangle.
-   2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-   3.	Click once to begin placing the rectangle.
-   4.	Type the Tab button and enter the values 100 mm and 60mm for the width and height respectively.
-   5.	Click again to place the rectangle.
-   6.	Click Finish Sketch after completing.
+  Create a new sketch on the front face of the block. Select center diameter circle, click the centre of the face and enter Ø50 mm. Click Finish Sketch, and then Extrude it 20 mm outward.
 
- ### STEP-4: Extrude Rectangle in XZ Plane
-   1.	Select Extrude.
-   2.	Select the Rectangle sketch.
-   3.	Click again to place the value.
-   4.	Type in the value of 30mm. 
-   5.	Press ENTER to accept the value.
+ ### STEP-4: Sketch the top parts
+   Create a new sketch on the top surface of the block. Draw a 15x15 square on the left about 5mm from edge and a rectangle for the middle block and - a Ø20 circle on the right, using the top view for the positions
 
- ### STEP-5:  Start the sketch command
-   Select Sketch > Create Sketch.
- ### STEP-6: Select the Sketch Plane
-   Select the FRON SURFACE of rectangular block 
- ### STEP-7: Create a CIRCLE 
-   1.	Select Sketch >CIRCLE  > CENTER CIRCLE.
-   2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-   3.	Click once to begin placing the CIRCLE.
-   4.	Type the Tab button and enter the value DIA 100mm .
-   5.	Click again to place the circle.
-   6.	Click Finish Sketch after completing.
+ ### STEP-5:  Extrude the top parts
+   Select extrude and pick all three shapes. Enter 10 mm and press ENTER. Then use Chamfer on the front top edge of the middle block to get the slanted face.
 
- ### STEP-8:  Extrude CIRCLE 
-   1.	Select Extrude.
-   2.	Select the Rectangle sketch.
-   3.	Click again to place the value.
-   4.	Type in the value of 20mm. 
-   5.	Press ENTER to accept the value.
-
- ### STEP-9: Start the sketch command
-   Select Sketch > Create Sketch.
-   
- ### STEP-10: Select the Sketch Plane
-   Select the TOP SURFACE OF RECTANGLE.
-   
- ### STEP-11: Create a line
-	1.Select Line command.
-	2. Draw the projections in the diagram 
-	3. Click Finish Sketch.
-	4. extrude the sketch.
 
 ## INPUT
 ![image](https://user-images.githubusercontent.com/113594316/198495472-9a69edb1-f0c6-470c-b9ae-fe282fa6a678.png)
